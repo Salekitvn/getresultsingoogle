@@ -1,0 +1,4 @@
+var div = document.getElementsByClassName('r');
+for (i=0;i<100;i++) {
+console.log(div.item(i).children.item(0).getAttribute('href'));
+}
